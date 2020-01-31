@@ -1,0 +1,107 @@
+CEC CS C12 31/01/2020
+Ashik David Abraham
+
+
+--------------------------------
+#1: Networking tasks (t3)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	ip
+	route
+	ping 192.168.0.1 		
+	
+
+--------------------------------
+Output: 
+
+	# ip  displays all available network interfaces
+	
+	# route displays kernal routing table
+	
+-------------------
+Remarks if any:
+
+student user wasn't in the sudoers list so I could not manipulate the routing table or access resolv.conf
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+#2: Ftp usage (t5)
+
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+	
+	sftp cs18c47@192.168.0.30
+	put file.txt
+	cd ..
+	pwd
+	get cs232
+	rm file.txt
+	mkdir sample_space
+	cd sample_space
+	cat > s1.txt
+	quit
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+	# sftp cs18c47@192.168.0.30, connect to host 192.168.0.30 via sftp
+
+	# put file.txt, upload file.txt
+
+	# cd .., change local directory 
+
+	# pwd, show local present working directory
+
+	# get cs232, copy cs232 from host to local system
+
+	# rm file.txt, remove file.txt from host
+
+	# mkdir sample_space , create sample_space file
+	
+	# cd sample_space , change directory to sample_space
+
+	# cat > s1.txt , creats a file in the host
+
+	# quit, quit current ftp session
+
+
+-------------------
+Remarks if any:
+		
+
+-------------------------------------
+-------------------------------------
+
+
+--------------------------------
+#3: Further Networking tasks (t4)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	ssh
+
+--------------------------------
+Output: 
+
+	# ssh cs18c47@192.168.0.30, is used to open a secured connection to remote device
+	
+-------------------
+Remarks if any:
+
+Eventually, the ssh session froze and became unresponsive, I had to exit using '~.'
+	
+
+-------------------------------------
+-------------------------------------
+
+
