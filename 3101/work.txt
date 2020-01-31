@@ -1,0 +1,468 @@
+Script started on 2020-01-31 16:18:12+0530
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp cs181[Kc12@192.168.0.30
+The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
+ECDSA key fingerprint is SHA256:pkLWQEXAwg4Zdh5CXNYydUTPcU7dwDFxyzJnqJ01m/s.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c12@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+cs232               examples.desktop    
+sftp> cd cs232
+sftp> ls
+abc.txt    clone.txt  repot      script     wer.txt    work.txt   
+sftp> r[Kcd ..
+sftp> ls
+cs232               examples.desktop    
+sftp> mget c[Ksftp> mget cs232/
+Fetching /home/cs18c12/cs232/ to cs232
+Cannot download non-regular file: /home/cs18c12/cs232/
+sftp> mget cs232/m[Pgget [1@ c[1@- [1@r  [1@ c
+Fetching /home/cs18c12/cs232/ to cs232
+Retrieving /home/cs18c12/cs232
+/home/cs18c12/cs232/clone.txt                   0%    0     0.0KB/s   --:-- ETA/home/cs18c12/cs232/clone.txt                 100%   52     3.3KB/s   00:00    
+/home/cs18c12/cs232/wer.txt                     0%    0     0.0KB/s   --:-- ETA/home/cs18c12/cs232/wer.txt                   100%   30     1.5KB/s   00:00    
+Retrieving /home/cs18c12/cs232/script
+/home/cs18c12/cs232/repot                       0%    0     0.0KB/s   --:-- ETA/home/cs18c12/cs232/repot                     100% 1699   451.7KB/s   00:00    
+/home/cs18c12/cs232/work.txt                    0%    0     0.0KB/s   --:-- ETA/home/cs18c12/cs232/work.txt                  100%   92KB   3.9MB/s   00:00    
+/home/cs18c12/cs232/abc.txt                     0%    0     0.0KB/s   --:-- ETA/home/cs18c12/cs232/abc.txt                   100%   17     6.2KB/s   00:00    
+sftp> ls
+cs232               examples.desktop    
+sftp> cs[K[Kcd [K[Kput file./~txt~[K[K[K[K[K[Ktxt
+stat file.txt: No such file or directory
+sftp> ls
+^Z
+[1]+  Stopped                 sftp cs18c12@192.168.0.30
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ ls
+work.txt
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp [3Plssftp cs18c12@192.168.0.30ls[Ksftp cs18c12@192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+Connection closed
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp cs18c12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c12@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+cs232               examples.desktop    
+sftp> put file.txt
+stat file.txt: No such file or directory
+sftp> ls
+cs232               examples.desktop    
+sftp> put file.txt
+Uploading file.txt to /home/cs18c12/file.txt
+file.txt                                      100%    0     0.0KB/s   00:00    
+sftp> ls
+cs232               examples.desktop    file.txt            
+sftp> rm file.txt
+Removing /home/cs18c12/file.txt
+sftp> ls
+cs232               examples.desktop    
+sftp> cd example.desktop
+Couldn't stat remote file: No such file or directory
+sftp> pwd
+Remote working directory: /home/cs18c12
+sftp> versiom[Kn
+SFTP protocol version 3
+sftp> exit
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ route
+
+Command 'route' not found, but can be installed with:
+
+apt install net-tools
+Please ask your administrator.
+
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ ping
+Usage: ping [-aAbBdDfhLnOqrRUvV64] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+Usage: ping -6 [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+             [-l preload] [-m mark] [-M pmtudisc_option]
+             [-N nodeinfo_option] [-p pattern] [-Q tclass] [-s packetsize]
+             [-S sndbuf] [-t ttl] [-T timestamp_option] [-w deadline]
+             [-W timeout] destination
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ ping 198.168.0.1
+connect: Network is unreachable
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ ping 198.168.0.1[K[K[K[K[K[K[K[K[K[K[K[Kroute[1Pping [Kping [K [Kping [K [Kping [K 198.168.0.2
+connect: Network is unreachable
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ ping 198.168.0.2[K[K[K[K[K[K[K[K[K[K[Kgp[Koof=g[K[K[Kgle.com
+ping: google.com: Name or service not known
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ ip
+Usage: ip [ OPTIONS ] OBJECT { COMMAND | help }
+       ip [ -force ] -batch filename
+where  OBJECT := { link | address | addrlabel | route | rule | neigh | ntable |
+                   tunnel | tuntap | maddress | mroute | mrule | monitor | xfrm |
+                   netns | l2tp | fou | macsec | tcp_metrics | token | netconf | ila |
+                   vrf | sr }
+       OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |
+                    -h[uman-readable] | -iec |
+                    -f[amily] { inet | inet6 | ipx | dnet | mpls | bridge | link } |
+                    -4 | -6 | -I | -D | -B | -0 |
+                    -l[oops] { maximum-addr-flush-attempts } | -br[ief] |
+                    -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |
+                    -rc[vbuf] [size] | -n[etns] name | -a[ll] | -c[olor]}
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ ip ila
+Usage: ip ila add loc_match LOCATOR_MATCH loc LOCATOR [ dev DEV ] OPTIONS
+       ip ila del loc_match LOCATOR_MATCH [ loc LOCATOR ] [ dev DEV ]
+       ip ila list
+OPTIONS := [ csum-mode { adj-transport | neutral-map | neutral-map-auto | no-action } ]
+           [ ident-type { luid | use-format } ]
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ ssh ip ila[Kping google.com198.168.0.21[Kroutesftp cs18c12@192.168.0.30[K[3Plssftp cs18c12@192.168.0.30[C[C[1P cs18c12@192.168.0.30[1P cs18c12@192.168.0.30[1P cs18c12@192.168.0.30[1P cs18c12@192.168.0.30s cs18c12@192.168.0.30s cs18c12@192.168.0.30h cs18c12@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c12@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+$ ls
+cs232  examples.desktop
+$ cs232
+-sh: 2: cs232: not found
+$ cd cs232
+$ ls
+abc.txt  clone.txt  repot  script  wer.txt  work.txt
+$ cd ..
+$ ls
+cs232  examples.desktop
+$ pwd
+/home/cs18c12
+$ mkdir     ls
+cs232  examples.desktop
+$ mkdir sample_space
+$ ls
+cs232  examples.desktop  sample_space
+$ cd sample  _space
+$ ls
+$ cad t > s1.txt
+ls
+^Z[1] + Stopped                    cat 1>s1.txt
+$ ls
+s1.txt
+$ cat s1, .txt
+ls
+$ nano s1.txt
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ][3d(B[m[22;39H(B[0;7m 1 line ](B[m[K[4d[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3               File: s1.txt                                     [3;1H(B[mls[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3dls[4d[1;71H(B[0;7mModified[4d(B[mashik davi d d abraha,[22d[K[4;20H m[5ds4 c[6d[7d[8d[8;9Hhel; lo world ;) ;);))[K:))' [9d[9;9H[9;17Hhow dp o u guys do[22d(B[0;7mFile Name to Write: s1.txt                                                      [23;14H(B[m   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[K[24;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[K[22;27H[?25l[31G[39;49m(B[m[1K (B[0;7m[ Wrote 7 lines ](B[m[K[9;33H[?12l[?25h[1;71H(B[0;7m        [23;14H^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[9;33H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+[2] + Stopped (signal)           nano s1.txt
+$ cat s1.txt
+ls
+ashik david abraham
+s4 c
+
+
+	hello world :)
+		how do u guys do
+$ rm s1.txt         lpwd
+-sh: 18: lpwd: not found
+$ pwd
+/home/cs18c12/sample_space
+$ ^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A                                ^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B                                                                    exit
+You have stopped jobs.
+$ quit
+-sh: 21: quit: not found
+$ ^C
+$ ^Z
+$ lsd
+-sh: 23: lsd: not found
+$ ls
+s1.txt
+$ cd..
+-sh: 25: cd..: not found
+$ cd ..
+$ ls
+cs232  examples.desktop  sample_space
+$ exit
+You have stopped jobs.
+$ pwd
+
+pw^[[A^[[A^[[A
+a
+ssddazsad000/home/cs18c12
+$ $ -sh: 31: pw[A[A[A: not found
+$ -sh: 32: a: not found
+$ ^[[3~^[[3~^[[3~^[[3~                     exit
+-sh: 33: ssddazsad00exit: not found
+$ exit
+You have stopped jobs.
+$ exit
+[24;1H[?1049l[?1l>Received SIGHUP or SIGTERM
+Connection to 192.168.0.30 closed.
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftpsh cs18c12@192.168.0.30ip ila[Kssh cs18c12@192.168.0.30ftp[Ksh cs18c12@192.168.0.30[1P cs18c12@192.168.0.30[1P cs18c12@192.168.0.30[1P cs18c12@192.168.0.30s cs18c12@192.168.0.30f cs18c12@192.168.0.30t cs18c12@192.168.0.30p cs18c12@192.168.0.30
+^Z
+[2]+  Stopped                 sftp cs18c12@192.168.0.30
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp cs18c12@192.168.0.30[K
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp cs18c12@192.168.0.30
+^Z
+[3]+  Stopped                 sftp cs18c12@192.168.0.30
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ ftp\[K
+ftp> ftp[K[K[K^Z
+[4]+  Stopped                 ftp
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp[C[C[C[C
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp[1Pftpsftp cs18c12@192.168.0.30[K cs18c12@192.168.0.30
+^[[A^[[A^[[B^[[B^[[B^Z
+[5]+  Stopped                 sftp cs18c12@192.168.0.30
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp cs18c12@192.168.0.30[K
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ \[Kpwd
+/home/s4c1/cscec18c12/cs232/3101
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ pwdsftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp cs18c12@192[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+There are stopped jobs.
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ exitsftp[1Ppwdsftp cs18c12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c12@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> Connection to 192.168.0.30 closed by remote host.
+
+[6]+  Stopped                 sftp cs18c12@192.168.0.30
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ sftp cs18c12@192.168.0.30[K[Kip
+Usage: ip [ OPTIONS ] OBJECT { COMMAND | help }
+       ip [ -force ] -batch filename
+where  OBJECT := { link | address | addrlabel | route | rule | neigh | ntable |
+                   tunnel | tuntap | maddress | mroute | mrule | monitor | xfrm |
+                   netns | l2tp | fou | macsec | tcp_metrics | token | netconf | ila |
+                   vrf | sr }
+       OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |
+                    -h[uman-readable] | -iec |
+                    -f[amily] { inet | inet6 | ipx | dnet | mpls | bridge | link } |
+                    -4 | -6 | -I | -D | -B | -0 |
+                    -l[oops] { maximum-addr-flush-attempts } | -br[ief] |
+                    -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |
+                    -rc[vbuf] [size] | -n[etns] name | -a[ll] | -c[olor]}
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ i[Kip [K[Kf [Kconfig
+
+Command 'ifconfig' not found, but can be installed with:
+
+apt install net-tools
+Please ask your administrator.
+
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/cscec18c12/cs232/3101[00m$ ifconfigp[K
+Usage: ip [ OPTIONS ] OBJECT { COMMAND | help }
+       ip [ -force ] -batch filename
+where  OBJECT := { link | address | addrlabel | route | rule | neigh | ntable |
+                   tunnel | tuntap | maddress | mroute | mrule | monitor | xfrm |
+                   netns | l2tp | fou | macsec | tcp_metrics | token | netconf | ila |
+                   vrf | sr }
+       OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |
+                    -h[uman-readable] | -iec |
+                    -f[amily] { inet | inet6 | ipx | dnet | mpls | bridge | link } |
+                    -4 | -6 | -I | -D | -B | -0 |
+                    -l[oops] { maximum-addr-flush-attempts } | -br[ief] |
+                    -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |
+                    -rc[vbuf] [size] | -n[etns] name | -a[ll] | -c[olor]}
+]0;s4c1@dell-Vostro-3470: ~/cscec18c12/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/c
