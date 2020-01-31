@@ -1,0 +1,825 @@
+Script started on Friday 24 January 2020 11:55:33 AM IST
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ touch [K[K[K[K[K[Knano abc.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: abc.txt                                    [3;1H(B[ma[4db[5dd[6dw[7dr[22;33H(B[0;7m[ Read 7 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[A[A[Ab[1;71H(B[0;7mModified[4d(B[m[Kr[5d[Kb[A7[5;21r8[5dM[1;24r[5;1Hd[6d[7d[A[A[A[Kq[5d[6d[22d[K[7dw[8d[22d(B[0;7mFile Name to Write: abc.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 8 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[8dr[23d[J[24;80H[24;1H[?1049l[?1l>]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano abc.txt[Kcat abc.ttc[K[Kxt
+a
+q
+d
+b 
+w
+r
+	
+ 
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ soi[Krt -n fn
+sort: open failed: fn: No such file or directory
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n fn[K[Kabc.txt
+ 
+	
+a
+b 
+d
+q
+r
+w
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano q[Kwer.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: wer.txt                                    [3;1H(B[m123     12[4d234     22[5d134     11[22;33H(B[0;7m[ Read 3 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d123[9G12[1;71H(B[0;7mModified[3;17H(B[m2[4;11H[17G12[5;11H[17G34[22d(B[0;7mFile Name to Write: wer.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[5;19H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[1]+  Stopped                 nano wer.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt[Kcat wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk1 wer.txt
+123	12	2
+134	11	34
+234	22	12
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort nk0 wer.txt
+sort: open failed: nk0: No such file or directory
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort nk0 wer.txt[1@-[C[C[C[C[C[C[C[C[C[C[C
+sort: field number is zero: invalid field specification `0'
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk0 wer.txt[1P wer.txt3 wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt[Knano wer.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: wer.txt                                    [3;1H(B[m123     12[17G2[4d234     22[17G12[5d134     11[17G34[22;33H(B[0;7m[ Read 3 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d123[9G12[17G2[1;71H(B[0;7mModified[3;17H(B[m 45[22d(B[0;7mFile Name to Write: wer.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3;19H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[2]+  Stopped                 nano wer.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt[5@sort -nk3[C[C[C[C[C[C[C[C
+234	22	12
+134	11	34
+123	12	45
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt[C[C[1@r
+123	12	45
+134	11	34
+234	22	12
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -rnk3 wer.txt[C[1P wer.txt1 wer.txt[C[C[C[C[C[C[C[C
+234	22	12
+134	11	34
+123	12	45
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -=[Kf3 wer.txt
+45
+12
+34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -f3 wer.txt[1P wer.txt1 wer.txt
+123
+234
+134
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -f1 wer.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpaste abc.txt wer.txt>[K > cloned[K.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat clone,[K.txt
+a	123	12	45
+q	234	22	12
+d	134	11	34
+b 	
+w	
+r	
+		
+ 	
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n clone.txt\
+> 
+ 	
+		
+a	123	12	45
+b 	
+d	134	11	34
+q	234	22	12
+r	
+w	
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n clone.txt
+ 	
+		
+a	123	12	45
+b 	
+d	134	11	34
+q	234	22	12
+r	
+w	
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ exit
+exit
+There are stopped jobs.
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ work[K[K[K[Kcat work.txt
+Script started on Friday 24 January 2020 11:55:33 AM IST
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ touch [K[K[K[K[K[Knano abc.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: abc.txt                                    [3;1H(B[ma[4db[5dd[6dw[7dr[22;33H(B[0;7m[ Read 7 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[A[A[Ab[1;71H(B[0;7mModified[4d(B[m[Kr[5d[Kb[A7[5;21r8[5dM[1;24r[5;1Hd[6d[7d[A[A[A[Kq[5d[6d[22d[K[7dw[8d[22d(B[0;7mFile Name to Write: abc.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 8 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[8dr[23d[J[24;80H[24;1H[?1049l[?1l>]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano abc.txt[Kcat abc.ttc[K[Kxt
+a
+q
+d
+b 
+w
+r
+	
+ 
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ soi[Krt -n fn
+sort: open failed: fn: No such file or directory
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n fn[K[Kabc.txt
+ 
+	
+a
+b 
+d
+q
+r
+w
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano q[Kwer.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: wer.txt                                    [3;1H(B[m123     12[4d234     22[5d134     11[22;33H(B[0;7m[ Read 3 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d123[9G12[1;71H(B[0;7mModified[3;17H(B[m2[4;11H[17G12[5;11H[17G34[22d(B[0;7mFile Name to Write: wer.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[5;19H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[1]+  Stopped                 nano wer.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt[Kcat wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk1 wer.txt
+123	12	2
+134	11	34
+234	22	12
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort nk0 wer.txt
+sort: open failed: nk0: No such file or directory
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort nk0 wer.txt[1@-[C[C[C[C[C[C[C[C[C[C[C
+sort: field number is zero: invalid field specification `0'
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk0 wer.txt[1P wer.txt3 wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt[Knano wer.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: wer.txt                                    [3;1H(B[m123     12[17G2[4d234     22[17G12[5d134     11[17G34[22;33H(B[0;7m[ Read 3 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d123[9G12[17G2[1;71H(B[0;7mModified[3;17H(B[m 45[22d(B[0;7mFile Name to Write: wer.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3;19H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[2]+  Stopped                 nano wer.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt[5@sort -nk3[C[C[C[C[C[C[C[C
+234	22	12
+134	11	34
+123	12	45
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt[C[C[1@r
+123	12	45
+134	11	34
+234	22	12
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -rnk3 wer.txt[C[1P wer.txt1 wer.txt[C[C[C[C[C[C[C[C
+234	22	12
+134	11	34
+123	12	45
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -=[Kf3 wer.txt
+45
+12
+34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -f3 wer.txt[1P wer.txt1 wer.txt
+123
+234
+134
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -f1 wer.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpaste abc.txt wer.txt>[K > cloned[K.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat clone,[K.txt
+a	123	12	45
+q	234	22	12
+d	134	11	34
+b 	
+w	
+r	
+		
+ 	
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n clone.txt\
+> 
+ 	
+		
+a	123	12	45
+b 	
+d	134	11	34
+q	234	22	12
+r	
+w	
+]0;s4c1@lasb2-Veriton-Series: ~/]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat work.txt[K]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat work.txt[K]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat work.txt
+Script started on Friday 24 January 2020 11:55:33 AM IST
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ touch [K[K[K[K[K[Knano abc.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: abc.txt                                    [3;1H(B[ma[4db[5dd[6dw[7dr[22;33H(B[0;7m[ Read 7 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[A[A[Ab[1;71H(B[0;7mModified[4d(B[m[Kr[5d[Kb[A7[5;21r8[5dM[1;24r[5;1Hd[6d[7d[A[A[A[Kq[5d[6d[22d[K[7dw[8d[22d(B[0;7mFile Name to Write: abc.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 8 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[8dr[23d[J[24;80H[24;1H[?1049l[?1l>]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano abc.txt[Kcat abc.ttc[K[Kxt
+a
+q
+d
+b 
+w
+r
+	
+ 
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ soi[Krt -n fn
+sort: open failed: fn: No such file or directory
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n fn[K[Kabc.txt
+ 
+	
+a
+b 
+d
+q
+r
+w
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano q[Kwer.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: wer.txt                                    [3;1H(B[m123     12[4d234     22[5d134     11[22;33H(B[0;7m[ Read 3 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d123[9G12[1;71H(B[0;7mModified[3;17H(B[m2[4;11H[17G12[5;11H[17G34[22d(B[0;7mFile Name to Write: wer.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[5;19H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[1]+  Stopped                 nano wer.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt[Kcat wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk1 wer.txt
+123	12	2
+134	11	34
+234	22	12
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort nk0 wer.txt
+sort: open failed: nk0: No such file or directory
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort nk0 wer.txt[1@-[C[C[C[C[C[C[C[C[C[C[C
+sort: field number is zero: invalid field specification `0'
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk0 wer.txt[1P wer.txt3 wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt[Knano wer.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: wer.txt                                    [3;1H(B[m123     12[17G2[4d234     22[17G12[5d134     11[17G34[22;33H(B[0;7m[ Read 3 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d123[9G12[17G2[1;71H(B[0;7mModified[3;17H(B[m 45[22d(B[0;7mFile Name to Write: wer.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3;19H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[2]+  Stopped                 nano wer.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt[5@sort -nk3[C[C[C[C[C[C[C[C
+234	22	12
+134	11	34
+123	12	45
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt[C[C[1@r
+123	12	45
+134	11	34
+234	22	12
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -rnk3 wer.txt[C[1P wer.txt1 wer.txt[C[C[C[C[C[C[C[C
+234	22	12
+134	11	34
+123	12	45
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -=[Kf3 wer.txt
+45
+12
+34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -f3 wer.txt[1P wer.txt1 wer.txt
+123
+234
+134
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -f1 wer.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpaste abc.txt wer.txt>[K > cloned[K.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat clone,[K.txt
+a	123	12	45
+q	234	22	12
+d	134	11	34
+b 	
+w	
+r	
+		
+ 	
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n clone.txt\
+> 
+ 	
+		
+a	123	12	45
+b 	
+d	134	11	34
+q	234	22	12
+r	
+w	
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n clone.txt
+ 	
+		
+a	123	12	45
+b 	
+d	134	11	34
+q	234	22	12
+r	
+w	
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ exit
+exit
+There are stopped jobs.
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ work[K[K[K[Kcat work.txt
+Script started on Friday 24 January 2020 11:55:33 AM IST
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ touch [K[K[K[K[K[Knano abc.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: abc.txt                                    [3;1H(B[ma[4db[5dd[6dw[7dr[22;33H(B[0;7m[ Read 7 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[A[A[Ab[1;71H(B[0;7mModified[4d(B[m[Kr[5d[Kb[A7[5;21r8[5dM[1;24r[5;1Hd[6d[7d[A[A[A[Kq[5d[6d[22d[K[7dw[8d[22d(B[0;7mFile Name to Write: abc.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 8 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[8dr[23d[J[24;80H[24;1H[?1049l[?1l>]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano abc.txt[Kcat abc.ttc[K[Kxt
+a
+q
+d
+b 
+w
+r
+	
+ 
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ soi[Krt -n fn
+sort: open failed: fn: No such file or directory
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n fn[K[Kabc.txt
+ 
+	
+a
+b 
+d
+q
+r
+w
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano q[Kwer.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: wer.txt                                    [3;1H(B[m123     12[4d234     22[5d134     11[22;33H(B[0;7m[ Read 3 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d123[9G12[1;71H(B[0;7mModified[3;17H(B[m2[4;11H[17G12[5;11H[17G34[22d(B[0;7mFile Name to Write: wer.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[5;19H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[1]+  Stopped                 nano wer.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt[Kcat wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk1 wer.txt
+123	12	2
+134	11	34
+234	22	12
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort nk0 wer.txt
+sort: open failed: nk0: No such file or directory
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort nk0 wer.txt[1@-[C[C[C[C[C[C[C[C[C[C[C
+sort: field number is zero: invalid field specification `0'
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk0 wer.txt[1P wer.txt3 wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt[Knano wer.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: wer.txt                                    [3;1H(B[m123     12[17G2[4d234     22[17G12[5d134     11[17G34[22;33H(B[0;7m[ Read 3 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d123[9G12[17G2[1;71H(B[0;7mModified[3;17H(B[m 45[22d(B[0;7mFile Name to Write: wer.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3;19H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[2]+  Stopped                 nano wer.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt[5@sort -nk3[C[C[C[C[C[C[C[C
+234	22	12
+134	11	34
+123	12	45
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt[C[C[1@r
+123	12	45
+134	11	34
+234	22	12
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -rnk3 wer.txt[C[1P wer.txt1 wer.txt[C[C[C[C[C[C[C[C
+234	22	12
+134	11	34
+123	12	45
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -=[Kf3 wer.txt
+45
+12
+34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -f3 wer.txt[1P wer.txt1 wer.txt
+123
+234
+134
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -f1 wer.txt[K[K[K[K[K]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cler[K[K[Klear
+[H[2J]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ clearat work.txt
+Script started on Friday 24 January 2020 11:55:33 AM IST
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ touch [K[K[K[K[K[Knano abc.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: abc.txt                                    [3;1H(B[ma[4db[5dd[6dw[7dr[22;33H(B[0;7m[ Read 7 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[A[A[Ab[1;71H(B[0;7mModified[4d(B[m[Kr[5d[Kb[A7[5;21r8[5dM[1;24r[5;1Hd[6d[7d[A[A[A[Kq[5d[6d[22d[K[7dw[8d[22d(B[0;7mFile Name to Write: abc.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 8 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[8dr[23d[J[24;80H[24;1H[?1049l[?1l>]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano abc.txt[Kcat abc.ttc[K[Kxt
+a
+q
+d
+b 
+w
+r
+	
+ 
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ soi[Krt -n fn
+sort: open failed: fn: No such file or directory
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n fn[K[Kabc.txt
+ 
+	
+a
+b 
+d
+q
+r
+w
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano q[Kwer.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: wer.txt                                    [3;1H(B[m123     12[4d234     22[5d134     11[22;33H(B[0;7m[ Read 3 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d123[9G12[1;71H(B[0;7mModified[3;17H(B[m2[4;11H[17G12[5;11H[17G34[22d(B[0;7mFile Name to Write: wer.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[5;19H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[1]+  Stopped                 nano wer.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt[Kcat wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk1 wer.txt
+123	12	2
+134	11	34
+234	22	12
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort nk0 wer.txt
+sort: open failed: nk0: No such file or directory
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort nk0 wer.txt[1@-[C[C[C[C[C[C[C[C[C[C[C
+sort: field number is zero: invalid field specification `0'
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk0 wer.txt[1P wer.txt3 wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt[Knano wer.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: wer.txt                                    [3;1H(B[m123     12[17G2[4d234     22[17G12[5d134     11[17G34[22;33H(B[0;7m[ Read 3 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d123[9G12[17G2[1;71H(B[0;7mModified[3;17H(B[m 45[22d(B[0;7mFile Name to Write: wer.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3;19H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[2]+  Stopped                 nano wer.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt[5@sort -nk3[C[C[C[C[C[C[C[C
+234	22	12
+134	11	34
+123	12	45
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt[C[C[1@r
+123	12	45
+134	11	34
+234	22	12
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -rnk3 wer.txt[C[1P wer.txt1 wer.txt[C[C[C[C[C[C[C[C
+234	22	12
+134	11	34
+123	12	45
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -=[Kf3 wer.txt
+45
+12
+34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -f3 wer.txt[1P wer.txt1 wer.txt
+123
+234
+134
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -f1 wer.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpaste abc.txt wer.txt>[K > cloned[K.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat clone,[K.txt
+a	123	12	45
+q	234	22	12
+d	134	11	34
+b 	
+w	
+r	
+		
+ 	
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n clone.txt\
+> 
+ 	
+		
+a	123	12	45
+b 	
+d	134	11	34
+q	234	22	12
+r	
+w	
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n clone.txt
+ 	
+		
+a	123	12	45
+b 	
+d	134	11	34
+q	234	22	12
+r	
+w	
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ exit
+exit
+There are stopped jobs.
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ work[K[K[K[Kcat work.txt
+Script started on Friday 24 January 2020 11:55:33 AM IST
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ touch [K[K[K[K[K[Knano abc.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: abc.txt                                    [3;1H(B[ma[4db[5dd[6dw[7dr[22;33H(B[0;7m[ Read 7 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[A[A[Ab[1;71H(B[0;7mModified[4d(B[m[Kr[5d[Kb[A7[5;21r8[5dM[1;24r[5;1Hd[6d[7d[A[A[A[Kq[5d[6d[22d[K[7dw[8d[22d(B[0;7mFile Name to Write: abc.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 8 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[8dr[23d[J[24;80H[24;1H[?1049l[?1l>]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano abc.txt[Kcat abc.ttc[K[Kxt
+a
+q
+d
+b 
+w
+r
+	
+ 
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ soi[Krt -n fn
+sort: open failed: fn: No such file or directory
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n fn[K[Kabc.txt
+ 
+	
+a
+b 
+d
+q
+r
+w
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano q[Kwer.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: wer.txt                                    [3;1H(B[m123     12[4d234     22[5d134     11[22;33H(B[0;7m[ Read 3 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d123[9G12[1;71H(B[0;7mModified[3;17H(B[m2[4;11H[17G12[5;11H[17G34[22d(B[0;7mFile Name to Write: wer.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[5;19H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[1]+  Stopped                 nano wer.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt[Kcat wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk1 wer.txt
+123	12	2
+134	11	34
+234	22	12
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort nk0 wer.txt
+sort: open failed: nk0: No such file or directory
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort nk0 wer.txt[1@-[C[C[C[C[C[C[C[C[C[C[C
+sort: field number is zero: invalid field specification `0'
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk0 wer.txt[1P wer.txt3 wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt[Knano wer.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: wer.txt                                    [3;1H(B[m123     12[17G2[4d234     22[17G12[5d134     11[17G34[22;33H(B[0;7m[ Read 3 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d123[9G12[17G2[1;71H(B[0;7mModified[3;17H(B[m 45[22d(B[0;7mFile Name to Write: wer.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3;19H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[2]+  Stopped                 nano wer.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt[5@sort -nk3[C[C[C[C[C[C[C[C
+234	22	12
+134	11	34
+123	12	45
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt[C[C[1@r
+123	12	45
+134	11	34
+234	22	12
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -rnk3 wer.txt[C[1P wer.txt1 wer.txt[C[C[C[C[C[C[C[C
+234	22	12
+134	11	34
+123	12	45
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -=[Kf3 wer.txt
+45
+12
+34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -f3 wer.txt[1P wer.txt1 wer.txt
+123
+234
+134
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -f1 wer.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpaste abc.txt wer.txt>[K > cloned[K.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat clone,[K.txt
+a	123	12	45
+q	234	22	12
+d	134	11	34
+b 	
+w	
+r	
+		
+ 	
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n clone.txt\
+> 
+ 	
+		
+a	123	12	45
+b 	
+d	134	11	34
+q	234	22	12
+r	
+w	
+]0;s4c1@lasb2-Veriton-Series: ~/]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat work.txt[K]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat work.txt[K]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat work.txt
+Script started on Friday 24 January 2020 11:55:33 AM IST
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ touch [K[K[K[K[K[Knano abc.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: abc.txt                                    [3;1H(B[ma[4db[5dd[6dw[7dr[22;33H(B[0;7m[ Read 7 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[A[A[Ab[1;71H(B[0;7mModified[4d(B[m[Kr[5d[Kb[A7[5;21r8[5dM[1;24r[5;1Hd[6d[7d[A[A[A[Kq[5d[6d[22d[K[7dw[8d[22d(B[0;7mFile Name to Write: abc.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 8 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[8dr[23d[J[24;80H[24;1H[?1049l[?1l>]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano abc.txt[Kcat abc.ttc[K[Kxt
+a
+q
+d
+b 
+w
+r
+	
+ 
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ soi[Krt -n fn
+sort: open failed: fn: No such file or directory
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n fn[K[Kabc.txt
+ 
+	
+a
+b 
+d
+q
+r
+w
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano q[Kwer.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: wer.txt                                    [3;1H(B[m123     12[4d234     22[5d134     11[22;33H(B[0;7m[ Read 3 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d123[9G12[1;71H(B[0;7mModified[3;17H(B[m2[4;11H[17G12[5;11H[17G34[22d(B[0;7mFile Name to Write: wer.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[5;19H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[1]+  Stopped                 nano wer.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt[Kcat wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk1 wer.txt
+123	12	2
+134	11	34
+234	22	12
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort nk0 wer.txt
+sort: open failed: nk0: No such file or directory
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort nk0 wer.txt[1@-[C[C[C[C[C[C[C[C[C[C[C
+sort: field number is zero: invalid field specification `0'
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk0 wer.txt[1P wer.txt3 wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt[Knano wer.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: wer.txt                                    [3;1H(B[m123     12[17G2[4d234     22[17G12[5d134     11[17G34[22;33H(B[0;7m[ Read 3 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d123[9G12[17G2[1;71H(B[0;7mModified[3;17H(B[m 45[22d(B[0;7mFile Name to Write: wer.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3;19H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[2]+  Stopped                 nano wer.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt[5@sort -nk3[C[C[C[C[C[C[C[C
+234	22	12
+134	11	34
+123	12	45
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt[C[C[1@r
+123	12	45
+134	11	34
+234	22	12
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -rnk3 wer.txt[C[1P wer.txt1 wer.txt[C[C[C[C[C[C[C[C
+234	22	12
+134	11	34
+123	12	45
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -=[Kf3 wer.txt
+45
+12
+34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -f3 wer.txt[1P wer.txt1 wer.txt
+123
+234
+134
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cut -f1 wer.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpaste abc.txt wer.txt>[K > cloned[K.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat clone,[K.txt
+a	123	12	45
+q	234	22	12
+d	134	11	34
+b 	
+w	
+r	
+		
+ 	
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n clone.txt\
+> 
+ 	
+		
+a	123	12	45
+b 	
+d	134	11	34
+q	234	22	12
+r	
+w	
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n clone.txt
+ 	
+		
+a	123	12	45
+b 	
+d	134	11	34
+q	234	22	12
+r	
+w	
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ exit
+exit
+There are stopped jobs.
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ work[K[K[K[Kcat work.txt
+Script started on Friday 24 January 2020 11:55:33 AM IST
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ touch [K[K[K[K[K[Knano abc.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: abc.txt                                    [3;1H(B[ma[4db[5dd[6dw[7dr[22;33H(B[0;7m[ Read 7 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[A[A[Ab[1;71H(B[0;7mModified[4d(B[m[Kr[5d[Kb[A7[5;21r8[5dM[1;24r[5;1Hd[6d[7d[A[A[A[Kq[5d[6d[22d[K[7dw[8d[22d(B[0;7mFile Name to Write: abc.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 8 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[8dr[23d[J[24;80H[24;1H[?1049l[?1l>]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano abc.txt[Kcat abc.ttc[K[Kxt
+a
+q
+d
+b 
+w
+r
+	
+ 
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ soi[Krt -n fn
+sort: open failed: fn: No such file or directory
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n fn[K[Kabc.txt
+ 
+	
+a
+b 
+d
+q
+r
+w
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano q[Kwer.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: wer.txt                                    [3;1H(B[m123     12[4d234     22[5d134     11[22;33H(B[0;7m[ Read 3 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d123[9G12[1;71H(B[0;7mModified[3;17H(B[m2[4;11H[17G12[5;11H[17G34[22d(B[0;7mFile Name to Write: wer.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[5;19H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[1]+  Stopped                 nano wer.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt[Kcat wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk1 wer.txt
+123	12	2
+134	11	34
+234	22	12
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort nk0 wer.txt
+sort: open failed: nk0: No such file or directory
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort nk0 wer.txt[1@-[C[C[C[C[C[C[C[C[C[C[C
+sort: field number is zero: invalid field specification `0'
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk0 wer.txt[1P wer.txt3 wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt
+123	12	2
+234	22	12
+134	11	34
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk3 wer.txt[Knano wer.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: wer.txt                                    [3;1H(B[m123     12[17G2[4d234     22[17G12[5d134     11[17G34[22;33H(B[0;7m[ Read 3 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d123[9G12[17G2[1;71H(B[0;7mModified[3;17H(B[m 45[22d(B[0;7mFile Name to Write: wer.txt                                                     [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;28H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3;19H[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[2]+  Stopped                 nano wer.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ [K]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano work.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6              File: work.txt                                    [3;1H(B[mScript started on Friday 24 January 2020 11:55:33 AM IST[4d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~$[5;1H^[[?1049h^[[1;24r^[(B^[[m^[[4l^[[?7h^[[?12l^[[?25h^[[?1h^[=^[[?1h^[=^[[?1h^[=^[$[6;1Ha[7dq[8dd[9db[10dw[11dr[14d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~$[15;1Hsort: open failed: fn: No such file or directory[16d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~$[19;1Ha[20db[21dd[22;32H(B[0;7m[ Read 745 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[6d[9d[12d[15d[18d[22d[K[15d[12d[9d[6d[24;1H[?1049l[?1l>[?1049h[1;39r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.2.6              File: work.txt                                    [3d(B[mScript started on Friday 24 January 2020 11:55:33 AM IST[4d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~$[5d^[[?1049h^[[1;24r^[(B^[[m^[[4l^[[?7h^[[?12l^[[?25h^[[?1h^[=^[[?1h^[=^[[?1h^[=^[$[6da[7dq[8dd[9db[10dw[11dr[14d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~$[15dsort: open failed: fn: No such file or directory[16d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~$[19da[20db[21dd[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[6d[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.2.6              File: work.txt                                    [3d(B[mScript started on Friday 24 January 2020 11:55:33 AM IST[4d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~$[5d^[[?1049h^[[1;24r^[(B^[[m^[[4l^[[?7h^[[?12l^[[?25h^[[?1h^[=^[[?1h^[=^[[?1h^[=^[$[6da[7dq[8dd[9db[10dw[11dr[14d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~$[15dsort: open failed: fn: No such file or directory[16d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~$[19da[20db[21dd[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[38d[1;31H(B[0;7m              [1;53HFile: work.txt[1;81H                                                                [4;80H(B[m/ceccs18c12/cs232$ touch ^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[Knan$[5;80H[39;49m^[[39;49m^[(B^[[m^[[H^[[2J^[(B^[[0;7m  GNU nano 2.2.6    $[14;80H/ceccs18c12/cs232$ soi^H^[[Krt -n fn[16;80H/ceccs18c12/cs232$ sort -n fn^H^[[K^H^[[Kabc.txt[22dq[23dr[K[24dw[K[25d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano q^H^[[Kwer.txt[26d^[[?1049h^[[1;24r^[(B^[[m^[[4l^[[?7h^[[?12l^[[?25h^[[?1h^[=^[[?1h^[=^[[?1h^[=^[[39;49m^[[39;49m^[(B^[[m^[[H^[[2J^[(B^[[0;7m  GNU nano 2.2.6    $[28;1H[1]+  Stopped[28;31Hnano wer.txt[29d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt^H^H^H^H^H^H^H^H^H^H^H^H^[[Kcat w$[30;1H123     12[17G2[31d234     22[17G12[32d134     11[17G34[33d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk1 wer.txt[34d123     12[17G2[35d134     11[17G34[36d234     22[17G12[38d(B[0;7m^G(B[m Get Help[38;25H(B[0;7m^O(B[m WriteOut[38;49H(B[0;7m^R(B[m Read File[38;73H(B[0;7m^Y(B[m Prev Page[38;97H(B[0;7m^K(B[m Cut Text[38;121H(B[0;7m^C(B[m Cur Pos[39d(B[0;7m^X(B[m Exit[39;25H(B[0;7m^J(B[m Justify[39;49H(B[0;7m^W(B[m Where Is[39;73H(B[0;7m^V(B[m Next Page[39;97H(B[0;7m^U(B[m UnCut Text[39;121H(B[0;7m^T(B[m To Spell[6d[39;1H[?1049l[?1l>[?1049h[1;41r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.2.6                                    File: work.txt                                                                              [3;1H(B[mScript started on Friday 24 January 2020 11:55:33 AM IST[4d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ touch ^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[Knan$[5;1H^[[?1049h^[[1;24r^[(B^[[m^[[4l^[[?7h^[[?12l^[[?25h^[[?1h^[=^[[?1h^[=^[[?1h^[=^[[39;49m^[[39;49m^[(B^[[m^[[H^[[2J^[(B^[[0;7m  GNU nano 2.2.6    $[6;1Ha[7dq[8dd[9db[10dw[11dr[14d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ soi^H^[[Krt -n fn[15dsort: open failed: fn: No such file or directory[16d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n fn^H^[[K^H^[[Kabc.txt[19da[20db[21dd[22dq[23dr[24dw[25d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano q^H^[[Kwer.txt[26d^[[?1049h^[[1;24r^[(B^[[m^[[4l^[[?7h^[[?12l^[[?25h^[[?1h^[=^[[?1h^[=^[[?1h^[=^[[39;49m^[[39;49m^[(B^[[m^[[H^[[2J^[(B^[[0;7m  GNU nano 2.2.6    $[28;1H[1]+  Stopped[28;31Hnano wer.txt[29d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt^H^H^H^H^H^H^H^H^H^H^H^H^[[Kcat w$[30;1H123     12[17G2[31d234     22[17G12[32d134     11[17G34[33d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk1 wer.txt[34d123     12[17G2[35d134     11[17G34[36d234     22[17G12[38d(B[0;7m^G(B[m Get Help[38;25H(B[0;7m^O(B[m WriteOut[38;49H(B[0;7m^R(B[m Read File[38;73H(B[0;7m^Y(B[m Prev Page[38;97H(B[0;7m^K(B[m Cut Text[38;121H(B[0;7m^C(B[m Cur Pos[39d(B[0;7m^X(B[m Exit[39;25H(B[0;7m^J(B[m Justify[39;49H(B[0;7m^W(B[m Where Is[39;73H(B[0;7m^V(B[m Next Page[39;97H(B[0;7m^U(B[m UnCut Text[39;121H(B[0;7m^T(B[m To Spell[6d[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.2.6                                    File: work.txt                                                                              [3;1H(B[mScript started on Friday 24 January 2020 11:55:33 AM IST[4d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ touch ^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[Knan$[5;1H^[[?1049h^[[1;24r^[(B^[[m^[[4l^[[?7h^[[?12l^[[?25h^[[?1h^[=^[[?1h^[=^[[?1h^[=^[[39;49m^[[39;49m^[(B^[[m^[[H^[[2J^[(B^[[0;7m  GNU nano 2.2.6    $[6;1Ha[7dq[8dd[9db[10dw[11dr[14d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ soi^H^[[Krt -n fn[15dsort: open failed: fn: No such file or directory[16d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -n fn^H^[[K^H^[[Kabc.txt[19da[20db[21dd[22dq[23dr[24dw[25d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano q^H^[[Kwer.txt[26d^[[?1049h^[[1;24r^[(B^[[m^[[4l^[[?7h^[[?12l^[[?25h^[[?1h^[=^[[?1h^[=^[[?1h^[=^[[39;49m^[[39;49m^[(B^[[m^[[H^[[2J^[(B^[[0;7m  GNU nano 2.2.6    $[28;1H[1]+  Stopped[28;31Hnano wer.txt[29d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ nano wer.txt^H^H^H^H^H^H^H^H^H^H^H^H^[[Kcat w$[30;1H123     12[17G2[31d234     22[17G12[32d134     11[17G34[33d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sort -nk1 wer.txt[34d123     12[17G2[35d134     11[17G34[36d234     22[17G12[38d(B[0;7m^G(B[m Get Help[38;25H(B[0;7m^O(B[m WriteOut[38;49H(B[0;7m^R(B[m Read File[38;73H(B[0;7m^Y(B[m Prev Page[38;97H(B[0;7m^K(B[m Cut Text[38;121H(B[0;7m^C(B[m Cur Pos[40d[37d[2L^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ cat wer.txt[38d123     12[17G2[41d(B[0;7m^X(B[m Exit[41;25H(B[0;7m^J(B[m Justify[41;49H(B[0;7m^W(B[m Where Is[41;73H(B[0;7m^V(B[m Next Page[41;97H(B[0;7m^U(B[m UnCut Text[41;121H(B[0;7m^T(B[m To Spell[6d[41;1H[?1049l[?1l>[?1049h[1;24r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.2.6                                    File: work.txt              [3;1H(B[mScript started on Friday 24 January 2020 11:55:33 AM IST[4d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/[5;1H^[[?1049h^[[1;24r^[(B^[[m^[[4l^[[?7h^[[?12l^[[?25h^[[?1h^[=^[[?1h^[=^[[?1h^[=^[[[6;1Ha[7dq[8dd[9db[10dw[11dr[14d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/[15;1Hsort: open failed: fn: No such file or directory[16d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/[19;1Ha[20db[21dd[22dq[23dr[24dw[6d[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.2.6                                    File: work.txt              [3;1H(B[mScript started on Friday 24 January 2020 11:55:33 AM IST[4d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/[5;1H^[[?1049h^[[1;24r^[(B^[[m^[[4l^[[?7h^[[?12l^[[?25h^[[?1h^[=^[[?1h^[=^[[?1h^[=^[[[6;1Ha[7dq[8dd[9db[10dw[11dr[14d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/[15;1Hsort: open failed: fn: No such file or directory[16d^[]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232^Gs4c1@lasb2-Veriton-Series:~/[19;1Ha[20db[21dd[23d[1;31H(B[0;7mFile: work.txt[1;53H              [4;80H(B[m$[5;80H$[14;80H$[16;80H$[23;1H(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[6d[24;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[3]+  Stopped                 nano work.txt
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sftp cs18c 11 12 1[C[C96.168.[C[1@c[1@e[C[1@c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0.2[K30[C[1P[1P[1P[C[C[C[C[C[C[C[C[C[1P196.168.0.30@196.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C
+ssh: connect to host 196.168.0.30 port 22: Network is unreachable
+Couldn't read packet: Connection reset by peer
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sftp cs18c12@196.168.0.30
+ssh: connect to host 196.168.0.30 port 22: Network is unreachable
+Couldn't read packet: Connection reset by peer
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ [K]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ [K]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ ==[K[Ksftp cs18c12@196.168.0.30
+ssh: connect to host 196.168.0.30 port 22: Network is unreachable
+Couldn't read packet: Connection reset by peer
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sftp cs18c12@196.168.0.30
+ssh: connect to host 196.168.0.30 port 22: Network is unreachable
+Couldn't read packet: Connection reset by peer
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sftp cs18c12@196.168.0.30
+ssh: connect to host 196.168.0.30 port 22: Network is unreachable
+Couldn't read packet: Connection reset by peer
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sftp cs18c12@196.168.0.30[1P196.168.0.30 196.168.0.30
+ssh: Could not resolve hostname cs18c12: Name or service not known
+Couldn't read packet: Connection reset by peer
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sftp cs18c12 196.168.0.30[1P196.168.0.30[1P196.168.0.302196.168.0.30@196.168.0.30
+ssh: connect to host 196.168.0.30 port 22: Network is unreachable
+Couldn't read packet: Connection reset by peer
+]0;s4c1@lasb2-Veriton-Series: ~/ceccs18c12/cs232s4c1@lasb2-Veriton-Series:~/ceccs18c12/cs232$ sftp cs18c12@196.168.0.30 196.168.0.30[C@196.168.0.30 196.168.0.30@196.168.0.30[1P.168.0.302.168.0.30[C[C[C[C[C[C[C[C[C
+The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
+ECDSA key fingerprint is d8:e8:3a:9a:e6:9d:37:9c:e9:3b:8d:e3:eb:eb:36:a0.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes' 
+Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c12@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+examples.desktop  
+sftp> put/home[K[K[K[K[K /home/sftp> put /home/[K[7G[Kput /home/s4c1/[K[K[K[K[K[K[K[K[K[K[K/home/s4c1/ceccs18c12/cs232
+Uploading /home/s4c1/ceccs18c12/cs232/ to /home/cs18c12/cs232
+/home/s4c1/ceccs18c12/cs232/ is not a regular file
+sftp> put /home/s4c1/ceccs18c12/cs232
+Uploading /home/s4c1/ceccs18c12/cs232/ to /home/cs18c12/cs232
+/home/s4c1/ceccs18c12/cs232/ is not a regular file
+sftp> put /home/s4c1/ceccs18c12/cs232/\[K
+Uploading /home/s4c1/ceccs18c12/cs232/ to /home/cs18c12/cs232
+/home/s4c1/ceccs18c12/cs232/ is not a regular file
+sftp> put /home/s4c1/ceccs18c12/cs232/
+Uploading /home/s4c1/ceccs18c12/cs232/ to /home/cs18c12/cs232
+/home/s4c1/ceccs18c12/cs232/ is not a regular file
+sftp> put /home/s4c1/ceccs18c12/cs232/c1/ceccs18c12/cs232/\[K[K
+Uploading /home/s4c1/ceccs18c12/cs232/ to /home/cs18c12/cs232
+/home/s4c1/ceccs18c12/cs232/ is not a regular file
+sftp> put /home/s4c1/ceccs18c12/cs232/
+Uploading /home/s4c1/ceccs18c12/cs232/ to /home/cs18c12/cs232
+/home/s4c1/ceccs18c12/cs232/ is not a regular file
+sftp> put /home/s4c1/ceccs18c12/cs232/
+Uploading /home/s4c1/ceccs18c12/cs232/ to /home/cs18c12/cs232
+/home/s4c1/ceccs18c12/cs232/ is not a regular file
+sftp> put /home/s4c1/ceccs18c12/cs232/[1@-/[1@r/[1@ /
+Uploading /home/s4c1/ceccs18c12/cs232/ to /home/cs18c12/cs232
+/home/s4c1/ceccs18c12/cs232/wer.txt             0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/wer.txt             0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/wer.txt             0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/wer.txt             0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/wer.txt             0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/wer.txt             0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/wer.txt             0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/wer.txt             0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/wer.txt             0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/wer.txt             0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/wer.txt             0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/wer.txt             0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/wer.txt             0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/wer.txt             0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/wer.txt             0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/wer.txt             0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/wer.txt             0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/wer.txt           100%   30     0.0KB/s   00:17    
+
+
+\
+
+
+^[[A^[[A^[[B^[[B^[[A                    
+
+
+
+
+/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/repot               0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/repot             100% 1699     0.1KB/s   00:20    
+/home/s4c1/ceccs18c12/cs232/clone.txt           0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/clone.txt           0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/clone.txt           0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/clone.txt           0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/clone.txt           0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/clone.txt           0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/clone.txt           0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/clone.txt           0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/clone.txt           0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/clone.txt           0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/clone.txt           0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/clone.txt           0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/clone.txt           0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/clone.txt           0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/clone.txt           0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/clone.txt         100%   52     0.0KB/s   00:14    
+/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0.0KB/s - stalled -/home/s4c1/ceccs18c12/cs232/work.txt            0%    0     0
