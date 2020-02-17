@@ -1,0 +1,38 @@
+CEC CS 18 C12 07-02-2020
+Ashik David Abraham 
+
+--------------------------------
+#1: SCRIPTING TASK (t2)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	/SX/script.sh
+
+Input: 
+---------------
+
+	# result downloaded from ktu site
+	/SX/result_CHN.pdf
+
+	# student details file containing roll number 
+	/SX/students.txt
+
+
+--------------------------------
+Output: 
+
+	# file with cgpa/count of subjects student failed in 
+	/SX/cgpa.txt
+
+
+-------------------
+Remarks if any:
+
+	
+
+-------------------------------------
+-------------------------------------
+
+
