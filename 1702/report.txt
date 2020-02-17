@@ -1,0 +1,35 @@
+CEC CS 18 C18 17-02-2020
+Ashik David Abraham
+
+-------------------------------
+#1: Create own web page at our server (t9)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+	# To fetch the sample index	
+	wget http://192.168.0.30/cs17d/cs17d00
+	# To put the page to the server
+	sftp
+	# To edit the contents of .html file
+	nano 	
+
+--------------------------------
+Output: 
+
+	# The page can be viewed at
+	http://192.168.0.30/cs17d/cs18c12
+
+-------------------
+Remarks if any:
+	
+	The server still shows the batch /cs17d, while our batch is /cs18c 
+	The links to thw work.txt nd report.txt are giving a HTTP 403
+	
+
+
+
+-------------------------------------
+-------------------------------------
+
