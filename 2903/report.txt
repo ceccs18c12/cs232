@@ -1,0 +1,75 @@
+CEC CS 18 C12 29-03-2020
+
+ASHIK DAVID ABRAHAM
+
+
+--------------------------------
+#1: Linux Installation (t6)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	ELEMENTARY OS 5.1 HERA
+
+		
+
+--------------------------------
+Output: 
+	
+	# Screenshots 1-6(.jpg) shows various steps of installation.
+	
+	
+	# ELEMENTARY is installed alongside Windows.
+
+-------------------
+Remarks if any:
+	
+	
+
+-------------------------------------
+-------------------------------------
+
+#2: Package management (t8)(1)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+	
+	# Update list of available packages
+	$ sudo apt update
+	
+	# Install a package (eg: firefox)
+	$ sudo apt-get install firefox
+	
+	# Remove a package(eg: epiphany)
+	$ vsudo apt-get remove epiphany-browser epiphany-browser-data epiphany-browser-data 
+
+	# Downloading and Installing arduino
+	$ wget https://downloads.arduino.cc/arduino-1.8.12-linux64.tar.xz
+	$ tar -xvf arduino-1.8.12-linux64.tar.xz
+	$ cd arduino-1.8.12/
+	$ sudo ./install.sh
+
+	#Downloading and Installing Atom
+	$ wget https://atom.io/download/deb
+	$ sudo dpkg -i deb
+	
+	# List all installed packages
+	$ sudo apt list > packages.txt
+
+
+--------------------------------
+Output: 
+	
+	# List of installed packages
+	packages.txt
+
+-------------------
+Remarks if any:
+	
+	
+
+-------------------------------------
+-------------------------------------
