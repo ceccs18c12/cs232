@@ -1,0 +1,52 @@
+CEC CS C12 31-03-2020
+ASHIK DAVID ABRAHAM
+
+--------------------------------
+#1: Kernel Compilation (t8)(4)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# Get the latest stable Linux kernel source code (source: kernel.org)
+	$ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.13.tar.xz
+	
+	# Extract tar.xz file
+	$ unxz -v linux-5.5.13.tar.xz
+	
+	# Download the PGP Signature for linux-5.5.13 (source: kernel.org)
+	$ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.13.tar.sign
+	
+	# Verify the kernel tartball with GnuPG
+	$ gpg --verify linux-5.5.13.tar.sign
+	
+	# Extract the Linux kernel tartball
+	$ tar xvf linux-5.5.13.tar
+
+	#Configure the Linux kernel features and modules
+	$ cd linux-5.5.13
+	$ cp -v /boot/config-$(uname -r) .config
+	
+	# Install the required compilers and other tools
+	$ sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+	
+	# Configure the kernel
+	$ make menuconfig
+
+	# Compile the Kernel 
+	$ make -j $(nproc)
+	
+	
+--------------------------------
+Output: 
+
+	# Compiled Kernel at /linux-5.5.13
+	Screenshot of the compiled files is attached - 1.png
+
+-------------------
+Remarks if any:
+
+	
+-------------------------------------
+-------------------------------------
+
